@@ -17,4 +17,3 @@ services:
     volumes:
       - ./node-server/src:/app/src
       - ./node-server/package.json:/app/package.json
-      - ./node-server/yarn.lock:/app/yarn.lock
